@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Challenge - 7 </title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="ad.js"/>
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+            <p> Advice # <span id="ad-id"></span> </p> <!-- span is used for the advice number -->
+            <h3> " <span id="ad-text"></span> " </h3> 
+           
+            <picture>
+                <source media="(500px)" srcset="pattern-divider-mobile.svg"/>
+                <img src="pattern-divider-desktop.svg" alt="dice"/>
+            </picture>
+            
+            <button id="btn" onclick="getAdvice()">
+                <img src="icon-dice.svg" alt="dice"/>
+            </button>
+        
+        </div>
+    
+    </div>
+</body>
+</html>
